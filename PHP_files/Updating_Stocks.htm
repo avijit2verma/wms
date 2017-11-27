@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>WholeSaler-Login</title>
+<link rel="stylesheet" href="WholeSaler/styles.css" type="text/css" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+
+		<section id="body" class="width">
+			<aside id="sidebar" class="column-left">
+
+			<header>
+				<h1><a href="#">WholeSaler</a></h1>
+
+				<h2>The Complete Info</h2>
+
+			</header>
+			<!--THE LEFT SIDE MENU IS DUE TO THE ABOVE CODE...!!-->
+			<nav id="mainnav">
+  				<ul>
+                            		<li> <a href="WholeSaler-Login.html">Home</a></li>
+									<li> <a href="Add _Transaction.htm">New Transaction</a></li>
+									<li> <a href="Defaulters_Table.htm">Defaulters Table</a></li>
+                            		<li class="selected-item"> <a href="Updating_Stocks.htm">Updating Stocks</a></li>
+                            		<li> <a href="Add_Supplier.htm">Add Supplier</a></li>
+									<li> <a href="#">AboutUs</a></li>
+                </ul>
+			</nav>
+
+
+
+			</aside>
+
+		<section id="content" class="column-right">
+
+	    <article>
+
+		<blockquote><p>WholeSalerlogin contain 1.Add Customer 2.Add Transaction 3.Depleted Stocks 4.Profits for every month 5.Defaulters Table 6. Updating the stocks 7.Adding about the buyer</p></blockquote>
+		<p>&nbsp;</p>
+
+		<!--	<a href="#" class="button">Read more</a>
+			<a href="#" class="button button-reversed">Comments</a> -->
+		<!--IN THIS FIELD WE CAN ADD THE CUSTOMER..-->
+		<fieldset>
+					<!--YOU NEED TO WRITE AN ACTION HERE...-->
+				<legend><strong>NEW STOCK</strong></legend>
+					<form action="New_Stock.php" method="post">
+
+						<p><label for="StockID">Stock-ID:</label>
+						<input type="text" name="StockID" id="StockID" value="" required/><br /></p>
+
+						<p><label for="Quantity">Quantiy:</label>
+						<input type="text" name="Quantity" id="Quantity" value="" required/><br /></p>
+
+						<p><label for="Price">Price-Per-Unit:</label>
+						<input type="text" name="Price" id="Price" value="" required/><br /></p>
+
+						<p><label for="Date">Expiry-Date:</label>
+						<input type="text" name="Date" id="Date" value="" required/><br /></p>
+
+						<p><input type="submit" name="send" class="formbutton" value="Send" /></p>
+
+					</form>
+
+
+		</fieldset>
+		<br> <br> <br> <br> <br> <br> <br>
+		<fieldset>
+					<!--YOU NEED TO WRITE AN ACTION HERE...-->
+				<legend><strong>UPDATE STOCK</strong></legend>
+					<form action="Updating_Stocks.php" method="POST">
+
+						<p><label for="Stock-ID1">Stock-ID:</label>
+						<input type="text" name="Stock-ID1" id="Stock-ID1" value=""  /><br /></p>
+
+						<p><label for="Quantity1">Quantiy:</label>
+						<input type="text" name="Quantity1" id="Quantity1" value="" /><br /></p>
+
+						<p><label for="Price1">Price-Per-Unit:</label>
+						<input type="text" name="Pric1" id="Price1" value="" /><br /></p>
+
+
+						<p><input type="submit" name="send" class="formbutton" value="Send" /></p>
+
+					</form>
+
+
+		</fieldset>
+
+		</article>
+
+
+
+
+
+			<footer class="clear">
+				<p>&copy; WholeSale Business Managment by Avijith and Avinash</p>
+			</footer>
+
+		</section>
+
+		<div class="clear"></div>
+
+	</section>
+
+
+</body>
+</html>
